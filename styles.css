@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 35px;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.nav-link {
+    color: black;
+    transition: color 0.2s ease;
+}
+.navbar-brand.custom-brand
+{
+    color: black;
+}
+input[type=text] {
+    background-color: #3CBC8D;
+    color: lightblue;
+  }

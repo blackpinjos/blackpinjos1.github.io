@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+nav ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 35px;
+    color: black;
+}
+nav a {
+    text-decoration: none;
+    color:black;
+}
+.nav-link {
+    color: black;
+    transition: color 0.2s ease;
+}
+.navbar-brand.custom-brand
+{
+    color: black;
+}
+  button {
+    background-color: white;
+    text-align: center;
+    color: blue;
+    border-radius: 15px;
+    border-style: soliid;
+    border-color:blue;
+    width: calc(100%-6px);
+    padding: 15px;
+    box-sizing: border-box;
+}
+input {
+    border-radius: 15px;
+    border-style:solid;
+    border-color: blue;
+    border-width: 1px;
+    width: calc(100%-6px);
+    padding: 15px;
+    box-sizing: border-box;
+}
+body {
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    line-height: 1.5;
+    background-color: wheat;
+}

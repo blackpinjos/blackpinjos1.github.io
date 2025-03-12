@@ -1,0 +1,94 @@
+.service h1 {
+   color: rgb(99, 99, 236);
+    padding-top: 5px;
+    padding-bottom: 50px;
+    font-size: 100px;
+    margin-top: 100px;
+}
+.services-itemspad {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 650px;
+    list-style: none;
+    margin: 100px;
+    background-color: wheat;
+}
+.services-itemspad h3 {
+    color: rgb(99, 99, 236);
+    font-size: 35px;
+    background-color: wheat;
+}
+.portfolio h1 {
+   color:  rgb(99, 99, 236);
+    font-size: 5em;
+}
+.portfolio p {
+color: rgb(99, 99, 236);
+margin-left: 400px;
+margin-right: 400px;
+}
+.inlineimage {
+display: flex;
+overflow: scroll;
+background-color: wheat;
+}
+.inlineimag img {
+   width: 200px;
+   height: 150px;
+   object-fit: cover;
+   animation: autoscrol 5s ;
+   background-color: wheat;
+}
+.inlineimage img.active {
+    opacity: 1;
+    background-color: wheat;
+}
+.hireimage {
+    position: relative;
+    margin-top: 50px;
+}
+.hireimage img {
+margin-left: 300px;
+box-shadow: 5px 5px 5px;
+z-index: -3;
+}
+.hire {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    margin-left: 100px;
+    transform: translate(-50, -50);
+    font-size: 55px;
+    z-index: 1;
+    padding-left: 100;
+    color: rgb(99, 99, 236);
+}
+.hire h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: rgb(99, 99, 236);
+    text-align: left;
+}
+.hireimage button {
+    font-family: 'Times New Roman', Times, serif;
+        background-color: white;
+        color: black;
+        width: 350px;
+        height: 100px;
+        box-sizing: border-box;
+        box-shadow: 5px 5px 5px;
+        width: calc(90%-6px);
+        padding: 15px;
+        margin-top: 40px;
+        margin-left: 200px;
+        box-sizing: border-box;
+        transform: translate(-50%, -50%);z-index: index 10;
+}
+.camara {
+    position: absolute;
+    z-index: 1;
+    margin-top: 450px;
+    margin-left: 400px;
+
+}

@@ -1,0 +1,80 @@
+body  {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+.container {
+    display: flex;
+    width: 100%;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: white;
+}
+.left-section {
+    width: 100%;
+    padding: 5px;
+    background-color: white;
+    color: whitesmoke;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.image {
+    max-width: 100%;
+    height: 90%;
+    display: block; 
+}
+.overlay-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    color: black;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    width: 75%;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.left-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: rgb(251, 251, 252);
+}
+.contact-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 2em;
+    margin-top: 20px;
+    box-shadow:2px 2px 4px rgba(0,0,0,0.3); 
+}
+.overlay-button{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);z-index: index 10;
+}
+.right-section{
+width: 50%;
+padding: 20px;
+}
+.right-section h1{
+    font-size: 5em;
+    color: rgb(50, 47, 248);
+    margin-bottom: 20px;
+    transform: translateX(20px);
+}
+.right-section b {
+    color: rgb(50, 47, 248);
+}
+.right-section{
+    line-height: 1.5;
+    color:#666;
+}

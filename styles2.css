@@ -1,0 +1,44 @@
+footer {
+    background-color: wheat;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.foot {
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-right: 50px;
+    background-color: wheat;
+}
+.foot-items {
+    padding-top: 100px;
+    display: flex;
+    gap: 200px;
+    margin-left: 100px;
+    list-style: none;
+}
+.foot-items h2{
+    font-size: 1.3em;
+    text-align: inline;
+}
+.foot-items button {
+    font-size: 1em;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: calc(90%-6px);
+    padding: 15px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.foot-items h5  {
+    margin-right: -30px;
+    text-align: left;
+}
+.foot-items img {
+    justify-items: center;
+    display: flex;
+}
